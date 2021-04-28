@@ -1,0 +1,42 @@
+body{
+	background: #212020;
+	margin: 0;
+	padding: 0;
+}
+
+.general{
+	width: 80%;
+}
+
+/*---- MENU PRINCIPAL - HEADER ----*/
+.contenedor-menu{
+	background: #212020;
+	position: fixed;
+	width: 100%;
+	list-style: none;
+	text-align: center;
+}
+.menu li{
+	display: inline-block;
+}
+.menu li a{
+	font-size: 22px;
+	color: white;
+	text-decoration: none;
+	padding: 10px 50px;
+	display: inline-block;
+	letter-spacing: 1px;
+}
+
+.menu li a:hover{
+	text-decoration: underline;
+}
+
+/*---- SECCION INICIO ----*/
+
+.inicio{
+	text-align: center;
+}
+.inicio img{
+	width: 100%;
+}
